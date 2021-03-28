@@ -130,8 +130,8 @@ body{
 .readmore::after{
 	content: "";
 	width: 47px; 
-	height:14px;
-	color: #FF7A00;
+	height:4px;
+	background-color:#FF7A00;
 	display: inline-block;
 	margin-left: 18px;
 }
