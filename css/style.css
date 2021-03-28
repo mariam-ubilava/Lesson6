@@ -1,0 +1,154 @@
+/*basic style*/
+.clear{
+	clear: both;
+}
+.inline{
+	display: flex;
+	font-family: Poppins-Regular; 
+	font-size: 16px;
+	color: #7B7B7B;
+	margin-top: 17px;
+}
+
+.f-left{
+	margin-right: 245px;
+	float: left;
+}
+.f-right{
+	float: right;
+	display: inline-block;
+}
+
+body{
+	padding-top: 126px;
+}
+.logo{
+	float: left;
+	margin: 5px 123px 26px 140px;
+
+}
+
+.navigation {
+	float: left;
+}
+
+.nav-li {
+	display: inline-block;
+	margin-right: 45px;
+	margin-top: 48px;
+	margin-bottom: 52px;
+	font-size: 16px;
+	font-family: Poppins;
+	color: #181C28;
+
+}
+.header-wrapper::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.header-wrapper{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 15;
+}
+
+.article-wrapper{
+	width: 1325px;
+	margin: auto 138px;
+}
+.left-block {
+	float: left;
+	display: inline-block;
+}
+.right-block{
+	float: right;
+	display: inline-block;
+}
+.topic-ttl{
+	width: 563px;
+	font-size: 36px;
+}
+.topic-description{
+	width: 636px;
+	font-size: 16px;
+}
+
+
+.banner-image{
+	position: relative;
+	width: 1600px;
+	height: 382px;
+}
+
+.text1{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 22px;
+	font-family: Poppins-Regular;
+
+}
+.text2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 48px;
+	font-family: PlayfairDisplay-Bold;
+}
+.rubric-ttl{
+	margin: 84px auto 81px 172px;
+	font-size: 22px;
+	font-family: Poppins-Medium;
+	color: #FF7A00;
+}
+.topic-ttl{
+	font-size: 36px;
+	font-family: PlayfairDisplay-Bold;
+	margin-top: 20px;
+	margin-bottom: 22px;
+}
+.topic-description{
+	font-size: 16px;
+	font-family: Poppins-Regular;
+}
+.readmore{
+	font-size: 14px;
+	font-family: Poppins-Medium;
+	margin-top: 13px;
+	margin-bottom: 57px;
+	color: #FF7A00;
+	display: inline-block;
+}
+
+.readmore::after{
+	content: "";
+	width: 47px; 
+	height:14px;
+	color: #FF7A00;
+	display: inline-block;
+	margin-left: 18px;
+}
+.footer-wrapper{
+	display: inline-flex;
+	width: 1352px;
+	margin: auto 138px;
+}
+.footer-ttl {
+	font-family: Poppins-SemiBold;
+	font-size: 24px;
+	margin-top: 81px;
+}
+
+.copyright{
+	margin: 160px 163px 138px 1167px;
+	color: #A4A4A4;
+	font-family: Poppins-Regular;
+	font-size: 16px;
+}
